@@ -795,9 +795,16 @@
 	}
 }
 
+@media (max-width: 1000px) {
+	.more_info_section {
+		margin-block-end: 120px;
+	}
+}
+
 @media (max-width: 480px) {
 	.more_info_section {
 		background-image: none;
+		margin-block-end: 60px;
 	}
 
 	.more_info_container {
@@ -824,5 +831,123 @@
 
 	.text_big_p {
 		font-size: 24px;
+	}
+}
+
+/*-----------------------*/
+/*-WE PRIORITISE SECTION-*/
+/*-----------------------*/
+
+.we_prioritise_section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1400px;
+	margin-block-end: 150px;
+}
+
+.prioritise_caption_p {
+	font-family: "Cormorant", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: #151618;
+	margin-block-start: 0px;
+	margin-block-end: 60px;
+}
+
+.prioritise_container {
+	display: flex;
+	justify-content: center;
+	gap: 49px;
+	flex-wrap: wrap;
+}
+
+.prioritise_duo_item {
+	display: flex;
+	justify-content: center;
+	gap: 49px;
+	flex-wrap: wrap;
+}
+
+.prioritise_item {
+	width: 294px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.prioritise_span_group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.prioritise_item_text {
+	font-family: "Open Sans", sans-serif;
+	color: #151618;
+}
+
+.prioritise_item_text.text_1 {
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.prioritise_item_text.text_2 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+	.we_prioritise_section {
+		margin-block-end: 120px;
+	}
+}
+
+@media (max-width: 480px) {
+	.we_prioritise_section {
+		margin-block-end: 60px;
+	}
+
+	.prioritise_duo_item {
+		gap: 50px;
+	}
+
+	.prioritise_caption_p {
+		margin-block-end: 30px;
+	}
+}
+
+@media (max-width: 360px) {
+	.we_prioritise_section {
+		margin-block-end: 50px;
+	}
+
+	.prioritise_caption_p {
+		font-size: 24px;
+	}
+
+	.prioritise_container {
+		gap: 40px;
+	}
+
+	.prioritise_duo_item {
+		gap: 40px;
+	}
+	
+	.prioritise_item {
+		width: auto;
+		gap: 10px;
+	}
+
+	.prioritise_item_text.text_1 {
+		font-size: 22px;
+	}
+	
+	.prioritise_item_text.text_2 {
+		font-weight: 400;
+		font-size: 12px;
 	}
 }
