@@ -517,10 +517,10 @@
 	/* transform: none; */
 }
 
-.blog_img_container {
-	/* width: 50%; */
-	/* height: 180px; */
-}
+/* .blog_img_container {
+	width: 50%;
+	height: 180px;
+} */
 
 .rightside_blog_caption {
 	height: 100%;
@@ -571,6 +571,7 @@
 	width: 149px;
 	height: 51px;
 	border: 1px solid #151618;
+	cursor: pointer;
 }
 
 .btn_view_all_p {
@@ -578,6 +579,12 @@
 	font-weight: 300;
 	font-size: 20px;
 	color: #151618;
+}
+
+@media (max-width: 1250px) {
+	.tea_blog_section {
+		margin-block-end: 120px;
+	}
 }
 
 @media (max-width: 1156px) {
@@ -631,4 +638,143 @@
 		transform: none;
 		margin-block-end: 10px;
 	}
+}
+
+@media (max-width: 480px) {
+	.tea_blog_section {
+		margin-block-end: 60px;
+	}
+}
+
+/*-----------------------*/
+/*---MORE INFO SECTION---*/
+/*-----------------------*/
+
+.more_info_section {
+	width: 100%;
+	min-height: 418px;
+	background-color: #F7F2EA;
+	background-image: url(../images/tea_1_bg.png);
+	background-size: auto 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+	margin-block-end: 150px;
+	display: flex;
+	/* flex-direction: column; */
+	align-items: center;
+	justify-content: center;
+}
+
+.more_info_container {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.text_big_p {
+	font-family: "Cormorant", sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: #151618;
+	text-align: left;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.text_and_form_group {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+}
+
+.more_info_text_container {
+	max-width: 580px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.text_small_p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #151618;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.input_form {
+	max-width: 580px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+	gap: 20px;
+}
+
+.email_input_and_button {
+	display: flex;
+	align-items: flex-end;
+	gap: 25px;
+}
+
+.email_input {
+	flex: 1;
+	width: auto;
+	height: 35px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #b8b58b;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #b8b58b;
+	outline: none;
+	padding: 0;
+	padding-left: 20px;
+	line-height: 1;
+}
+
+.email_input::placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 150%;
+	color: #b8b58b;
+}
+
+.join_btn {
+	width: 116px;
+	height: 51px;
+	background-color: #FFFFFF;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #151618;
+	border-width: 1px;
+	cursor: pointer;
+}
+
+.checkbox_and_text {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.checkbox_item {
+	width: 10px;
+	height: 10px;
+	margin-top: 1px;
+	border-radius: 0px;
+	border: 2px solid #151618;
+}
+
+.checkbox_text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #151618;
 }
