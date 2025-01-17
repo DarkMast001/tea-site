@@ -951,3 +951,285 @@
 		font-size: 12px;
 	}
 }
+
+/*=======================*/
+/*=========FOOTER========*/
+/*=======================*/
+
+.footer {
+	min-height: 593px;
+	background-color: #F7F2EA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer_container {
+	display: flex;
+	justify-content: center;
+	column-gap: 213px;
+	row-gap: 50px;
+	margin-top: 100px;
+	margin-block-end: 70px;
+}
+
+.conclusion_hrefs_section {
+	display: flex;
+	gap: 155px;
+}
+
+.products_company_group {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.products_company_span {
+	font-family: "Cormorant", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #151618;
+}
+
+.products_company_hrefs {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.nav_link_footer {
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #151618;
+}
+
+.conclusion_section {
+	display: flex;
+	gap: 41px;
+}
+
+.conclusion_seo_text_group {
+	max-width: 269px;
+}
+
+.conclusion_seo_p {
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 16px;
+	color: #151618;
+	margin-block-start: 76px;
+	margin-block-end: 20px;
+}
+
+.author_conclusion_p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #151618;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.break {
+	display: inline;
+}
+
+.stay_in_touch_container {
+	max-width: 270px;
+}
+
+.stay_in_touch_p {
+	font-family: "Cormorant", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	color: #151618;
+	margin-block-start: 0px;
+	margin-block-end: 50px;
+}
+
+.stay_in_touch_email_phone_p {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #151618;
+	margin-block-start: 0px;
+	margin-block-end: 20px;
+}
+
+.logo_contact_information_container {
+	display: flex;
+	gap: 40px;
+}
+
+.img_style {
+	width: 57px;
+	height: 91px;
+}
+
+.contact_information_container {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin-top: 21px;
+}
+
+.contact_email_phone {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.email_phone_group {
+	display: flex;
+	gap: 10px;
+}
+
+.email_phone_span {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #151618;
+}
+
+.social_networks_group {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.rights_section {
+	min-width: 1170px;
+	display: flex;
+	gap: 192px;
+	margin-block-end: 18px;
+}
+
+.rights_span {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #151618;
+	
+}
+
+.pay_group {
+	display: flex;
+	gap: 20px;
+}
+
+@media (max-width: 1230px) {
+	.footer_container {
+		column-gap: 54px;
+	}
+
+	.conclusion_hrefs_section {
+		gap: 60px;
+	}
+
+	.rights_section {
+		min-width: 916px;
+	}
+}
+
+@media (max-width: 950px) {
+	.footer_container {
+		margin-top: 50px;
+	}
+
+	.conclusion_section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.conclusion_seo_p {
+		margin-block-start: 0px;
+	}
+
+	.rights_section {
+		min-width: 606px;
+	}
+}
+
+@media (max-width: 650px) {
+	.footer_container {
+		flex-direction: column;
+		margin-block-end: 50px;
+	}
+
+	.conclusion_hrefs_section {
+		gap: 133px;
+	}
+
+	.conclusion_seo_text_group {
+		max-width: 460px;
+	}
+
+	.break {
+		display: none;
+	}
+
+	.stay_in_touch_container {
+		max-width: 460px;
+	}
+
+	.stay_in_touch_p {
+		text-align: center;
+		margin-block-end: 20px;
+	}
+
+	.stay_in_touch_email_phone_p {
+		text-align: center;
+	}
+
+	.contact_information_container {
+		height: 60px;
+		flex-direction: row;
+	}
+
+	.rights_section {
+		min-width: 460px;
+	}
+}
+
+@media (max-width: 500px) {
+	.footer_container {
+		margin-block-end: 112px;
+	}
+
+	.conclusion_hrefs_section {
+		gap: 73px;
+	}
+
+	.conclusion_seo_text_group {
+		max-width: 340px;
+	}
+
+	.stay_in_touch_container {
+		max-width: 340px;
+	}
+
+	.logo_contact_information_container {
+		justify-self: center;
+	}
+
+	.contact_information_container {
+		height: auto;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.social_networks_group {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, 110px);
+	}
+
+	.rights_section {
+		min-width: 340px;
+		gap: 53px;
+	}
+}
